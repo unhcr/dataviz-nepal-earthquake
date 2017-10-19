@@ -1,0 +1,3 @@
+[submodule "app/scripts/vizlib"]
+	path = app/scripts/vizlib
+	url = https://github.com/matthewsmawfield/vizlib.js.git
