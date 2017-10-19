@@ -7,7 +7,7 @@ var monthNames = ["Jan", "Feb", "Mar",
 var dataSources = [
 {'name': 'adm1', 'source': 'scripts/geo/topojson/adm1.json'},
 {'name': 'adm3', 'source': 'scripts/geo/topojson/adm3.json'},
-{'name': 'csv', 'source': 'scripts/data/deaths.csv'},
+{'name': 'csv', 'source': 'scripts/geo/data/deaths.csv'},
 // {'name': 'deaths', 'source': 'https://dl.dropboxusercontent.com/s/wgra1v9my9buf33/deaths.csv?dl=0'},
 // {'name': 'district_pop', 'source': 'https://dl.dropboxusercontent.com/s/4la3pwtlyylwlek/district_population.csv?dl=0'},
 {'name': 'world', 'source': 'scripts/geo/topojson/nepalregion2.json'},
