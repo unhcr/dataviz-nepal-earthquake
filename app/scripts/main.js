@@ -1233,12 +1233,13 @@ var legendInjured = mapsvg.append('g')
 	}
 
 	function getToplineDate(str){
+		console.log(str);
 		var d = str.substring(0, 2);
 		var m = str.substring(4, 5);
-		var y = str.substring(6, 8);
+		var y = str.substring(6, 10);
 
 		m = monthNames[m-1];
-		var df = d + ' ' +m + ' 20'+y;
+		var df = d + ' ' +m + ' '+y;
 
 		return df;
 	}
